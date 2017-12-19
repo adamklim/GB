@@ -1,0 +1,4612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AnalysisConfiguration>
+  <IncludedColumns>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">IssuingDate</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">DocID</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">TTS_ShopCountryName</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">LIA_LIAShopNr</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">TTS_ShopCode</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">TTS_PaymentMethod</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">LIA_ShopName</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">MNA_BundleTypes</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">MNA_FormScanStatuses</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">MNA_BundleContents</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">TTS_IssuedStatus</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">TTS_eStampDate</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">ServiceID</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">TTS_TotalGrossAmount</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">TTS_TotalRefundAmount</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">TTS_TotalVatAmount</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">MNA_Invoiced</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">MNA_Directives</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">PDS_Counts_RefundedCount</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">PDS_Counts_RecordCount</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+    <Row>
+      <Cell ColumnName="A">true</Cell>
+      <Cell ColumnName="Column name">TTS_EarlyRefundType</Cell>
+      <Cell ColumnName="Column type">
+      </Cell>
+      <Cell ColumnName="Special value">
+      </Cell>
+    </Row>
+  </IncludedColumns>
+  <Result>
+    <IsActive>true</IsActive>
+    <IsExclusive>false</IsExclusive>
+    <AllowDrillDown>true</AllowDrillDown>
+    <Category>
+    </Category>
+    <Title>eStamped France</Title>
+    <TotalsBy>1</TotalsBy>
+    <EntryCondition>
+      <Name>New condition</Name>
+      <RootPredicate>
+        <Type>0</Type>
+        <Name />
+        <ColumnName />
+        <Operator />
+        <Value />
+        <ValueType>0</ValueType>
+        <Comment />
+        <IsActive>true</IsActive>
+        <ChildPredicates />
+      </RootPredicate>
+    </EntryCondition>
+    <Result>
+      <IsActive>false</IsActive>
+      <IsExclusive>false</IsExclusive>
+      <AllowDrillDown>false</AllowDrillDown>
+      <Category>
+      </Category>
+      <Title>1 - CASH: Refund Target</Title>
+      <TotalsBy>1</TotalsBy>
+      <EntryCondition>
+        <Name>New condition</Name>
+        <RootPredicate>
+          <Type>0</Type>
+          <Name />
+          <ColumnName />
+          <Operator />
+          <Value />
+          <ValueType>0</ValueType>
+          <Comment />
+          <IsActive>true</IsActive>
+          <ChildPredicates>
+            <ChildPredicate>
+              <Type>4</Type>
+              <Name>Cash Refund target</Name>
+              <ColumnName>TTS_PaymentMethod</ColumnName>
+              <Operator>=</Operator>
+              <Value>4</Value>
+              <ValueType>20</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates />
+            </ChildPredicate>
+          </ChildPredicates>
+        </RootPredicate>
+      </EntryCondition>
+      <TitleFormat>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </TitleFormat>
+      <ResultFormat>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </ResultFormat>
+      <ResultFormatEmpty>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </ResultFormatEmpty>
+    </Result>
+    <Result>
+      <IsActive>false</IsActive>
+      <IsExclusive>true</IsExclusive>
+      <AllowDrillDown>false</AllowDrillDown>
+      <Category>
+      </Category>
+      <Title>2 - CC: Refund Target (Total)</Title>
+      <TotalsBy>1</TotalsBy>
+      <EntryCondition>
+        <Name>New condition</Name>
+        <RootPredicate>
+          <Type>0</Type>
+          <Name />
+          <ColumnName />
+          <Operator />
+          <Value />
+          <ValueType>0</ValueType>
+          <Comment />
+          <IsActive>true</IsActive>
+          <ChildPredicates>
+            <ChildPredicate>
+              <Type>4</Type>
+              <Name>CC Refund target</Name>
+              <ColumnName>TTS_PaymentMethod</ColumnName>
+              <Operator>=</Operator>
+              <Value>1</Value>
+              <ValueType>20</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates />
+            </ChildPredicate>
+          </ChildPredicates>
+        </RootPredicate>
+      </EntryCondition>
+      <Result>
+        <IsActive>true</IsActive>
+        <IsExclusive>false</IsExclusive>
+        <AllowDrillDown>false</AllowDrillDown>
+        <Category>
+        </Category>
+        <Title>AR Received by MNA</Title>
+        <TotalsBy>1</TotalsBy>
+        <EntryCondition>
+          <Name>New condition</Name>
+          <RootPredicate>
+            <Type>0</Type>
+            <Name />
+            <ColumnName />
+            <Operator />
+            <Value />
+            <ValueType>0</ValueType>
+            <Comment />
+            <IsActive>true</IsActive>
+            <ChildPredicates>
+              <ChildPredicate>
+                <Type>2</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>AR in MNA</Name>
+                    <ColumnName>MNA_BundleContents</ColumnName>
+                    <Operator>CONTAINS</Operator>
+                    <Value>(9)</Value>
+                    <ValueType>202</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>AR in MNA</Name>
+                    <ColumnName>MNA_BundleContents</ColumnName>
+                    <Operator>CONTAINS</Operator>
+                    <Value>(5)</Value>
+                    <ValueType>202</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>eIRNC in MNA</Name>
+                    <ColumnName>MNA_BundleContents</ColumnName>
+                    <Operator>CONTAINS</Operator>
+                    <Value>(10)</Value>
+                    <ValueType>202</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                </ChildPredicates>
+              </ChildPredicate>
+            </ChildPredicates>
+          </RootPredicate>
+        </EntryCondition>
+        <TitleFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </TitleFormat>
+        <ResultFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormat>
+        <ResultFormatEmpty>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormatEmpty>
+      </Result>
+      <Result>
+        <IsActive>true</IsActive>
+        <IsExclusive>true</IsExclusive>
+        <AllowDrillDown>false</AllowDrillDown>
+        <Category>
+        </Category>
+        <Title>AR Not received by MNA</Title>
+        <TotalsBy>1</TotalsBy>
+        <EntryCondition>
+          <Name>New condition</Name>
+          <RootPredicate>
+            <Type>0</Type>
+            <Name />
+            <ColumnName />
+            <Operator />
+            <Value />
+            <ValueType>0</ValueType>
+            <Comment />
+            <IsActive>true</IsActive>
+            <ChildPredicates />
+          </RootPredicate>
+        </EntryCondition>
+        <Result>
+          <IsActive>true</IsActive>
+          <IsExclusive>true</IsExclusive>
+          <AllowDrillDown>false</AllowDrillDown>
+          <Category>
+          </Category>
+          <Title>Details: Txn in MNA</Title>
+          <TotalsBy>0</TotalsBy>
+          <EntryCondition>
+            <Name>New condition</Name>
+            <RootPredicate>
+              <Type>0</Type>
+              <Name />
+              <ColumnName />
+              <Operator />
+              <Value />
+              <ValueType>0</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates>
+                <ChildPredicate>
+                  <Type>4</Type>
+                  <Name>Recovered</Name>
+                  <ColumnName>MNA_BundleTypes</ColumnName>
+                  <Operator>&lt;&gt;</Operator>
+                  <Value>(S)</Value>
+                  <ValueType>202</ValueType>
+                  <Comment />
+                  <IsActive>true</IsActive>
+                  <ChildPredicates />
+                </ChildPredicate>
+              </ChildPredicates>
+            </RootPredicate>
+          </EntryCondition>
+          <Result>
+            <IsActive>true</IsActive>
+            <IsExclusive>false</IsExclusive>
+            <AllowDrillDown>false</AllowDrillDown>
+            <Category>
+            </Category>
+            <Title>Voided</Title>
+            <TotalsBy>1</TotalsBy>
+            <EntryCondition>
+              <Name>New condition</Name>
+              <RootPredicate>
+                <Type>0</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>Voided</Name>
+                    <ColumnName>TTS_IssuedStatus</ColumnName>
+                    <Operator>=</Operator>
+                    <Value>2</Value>
+                    <ValueType>20</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                </ChildPredicates>
+              </RootPredicate>
+            </EntryCondition>
+            <TitleFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </TitleFormat>
+            <ResultFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormat>
+            <ResultFormatEmpty>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormatEmpty>
+          </Result>
+          <Result>
+            <IsActive>true</IsActive>
+            <IsExclusive>false</IsExclusive>
+            <AllowDrillDown>false</AllowDrillDown>
+            <Category>
+            </Category>
+            <Title>Unconfirmed</Title>
+            <TotalsBy>1</TotalsBy>
+            <EntryCondition>
+              <Name>New condition</Name>
+              <RootPredicate>
+                <Type>0</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>Unconfirmed</Name>
+                    <ColumnName>TTS_IssuedStatus</ColumnName>
+                    <Operator>=</Operator>
+                    <Value>3</Value>
+                    <ValueType>20</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                </ChildPredicates>
+              </RootPredicate>
+            </EntryCondition>
+            <TitleFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </TitleFormat>
+            <ResultFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormat>
+            <ResultFormatEmpty>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormatEmpty>
+          </Result>
+          <Result>
+            <IsActive>true</IsActive>
+            <IsExclusive>false</IsExclusive>
+            <AllowDrillDown>true</AllowDrillDown>
+            <Category>
+            </Category>
+            <Title>MISSING eIRNC (not invoiced)</Title>
+            <TotalsBy>1</TotalsBy>
+            <EntryCondition>
+              <Name>New condition</Name>
+              <RootPredicate>
+                <Type>0</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>Bundle Content UNSPECIFIED</Name>
+                    <ColumnName>MNA_BundleContents</ColumnName>
+                    <Operator>=</Operator>
+                    <Value>(0)(0)</Value>
+                    <ValueType>202</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>Bundle Type STORE and NC</Name>
+                    <ColumnName>MNA_BundleTypes</ColumnName>
+                    <Operator>CONTAINS</Operator>
+                    <Value>(S)(N)</Value>
+                    <ValueType>202</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>No invoice</Name>
+                    <ColumnName>MNA_Invoiced</ColumnName>
+                    <Operator>=</Operator>
+                    <Value />
+                    <ValueType>0</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>No PD</Name>
+                    <ColumnName>MNA_Directives</ColumnName>
+                    <Operator>=</Operator>
+                    <Value>(-1)(0)</Value>
+                    <ValueType>202</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                </ChildPredicates>
+              </RootPredicate>
+            </EntryCondition>
+            <TitleFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </TitleFormat>
+            <ResultFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormat>
+            <ResultFormatEmpty>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormatEmpty>
+          </Result>
+          <Result>
+            <IsActive>true</IsActive>
+            <IsExclusive>false</IsExclusive>
+            <AllowDrillDown>true</AllowDrillDown>
+            <Category>
+            </Category>
+            <Title>In Processing progress</Title>
+            <TotalsBy>1</TotalsBy>
+            <EntryCondition>
+              <Name>New condition</Name>
+              <RootPredicate>
+                <Type>0</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates />
+              </RootPredicate>
+            </EntryCondition>
+            <TitleFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </TitleFormat>
+            <ResultFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormat>
+            <ResultFormatEmpty>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormatEmpty>
+          </Result>
+          <TitleFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </TitleFormat>
+          <ResultFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormat>
+          <ResultFormatEmpty>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormatEmpty>
+        </Result>
+        <Result>
+          <IsActive>true</IsActive>
+          <IsExclusive>true</IsExclusive>
+          <AllowDrillDown>false</AllowDrillDown>
+          <Category>
+          </Category>
+          <Title>Details: Txn Still missing in MNA</Title>
+          <TotalsBy>0</TotalsBy>
+          <EntryCondition>
+            <Name>New condition</Name>
+            <RootPredicate>
+              <Type>0</Type>
+              <Name />
+              <ColumnName />
+              <Operator />
+              <Value />
+              <ValueType>0</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates />
+            </RootPredicate>
+          </EntryCondition>
+          <Result>
+            <IsActive>true</IsActive>
+            <IsExclusive>false</IsExclusive>
+            <AllowDrillDown>false</AllowDrillDown>
+            <Category>
+            </Category>
+            <Title>Voided</Title>
+            <TotalsBy>1</TotalsBy>
+            <EntryCondition>
+              <Name>New condition</Name>
+              <RootPredicate>
+                <Type>0</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>Voided</Name>
+                    <ColumnName>TTS_IssuedStatus</ColumnName>
+                    <Operator>=</Operator>
+                    <Value>2</Value>
+                    <ValueType>20</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                </ChildPredicates>
+              </RootPredicate>
+            </EntryCondition>
+            <TitleFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </TitleFormat>
+            <ResultFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormat>
+            <ResultFormatEmpty>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormatEmpty>
+          </Result>
+          <Result>
+            <IsActive>true</IsActive>
+            <IsExclusive>false</IsExclusive>
+            <AllowDrillDown>false</AllowDrillDown>
+            <Category>
+            </Category>
+            <Title>Unconfirmed</Title>
+            <TotalsBy>1</TotalsBy>
+            <EntryCondition>
+              <Name>New condition</Name>
+              <RootPredicate>
+                <Type>0</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>Unconfirmed</Name>
+                    <ColumnName>TTS_IssuedStatus</ColumnName>
+                    <Operator>=</Operator>
+                    <Value>3</Value>
+                    <ValueType>20</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                </ChildPredicates>
+              </RootPredicate>
+            </EntryCondition>
+            <TitleFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </TitleFormat>
+            <ResultFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormat>
+            <ResultFormatEmpty>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormatEmpty>
+          </Result>
+          <Result>
+            <IsActive>true</IsActive>
+            <IsExclusive>false</IsExclusive>
+            <AllowDrillDown>true</AllowDrillDown>
+            <Category>
+            </Category>
+            <Title>Issued</Title>
+            <TotalsBy>1</TotalsBy>
+            <EntryCondition>
+              <Name>New condition</Name>
+              <RootPredicate>
+                <Type>0</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates />
+              </RootPredicate>
+            </EntryCondition>
+            <TitleFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </TitleFormat>
+            <ResultFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormat>
+            <ResultFormatEmpty>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormatEmpty>
+          </Result>
+          <TitleFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </TitleFormat>
+          <ResultFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormat>
+          <ResultFormatEmpty>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormatEmpty>
+        </Result>
+        <TitleFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </TitleFormat>
+        <ResultFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormat>
+        <ResultFormatEmpty>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormatEmpty>
+      </Result>
+      <TitleFormat>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </TitleFormat>
+      <ResultFormat>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </ResultFormat>
+      <ResultFormatEmpty>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </ResultFormatEmpty>
+    </Result>
+    <Result>
+      <IsActive>false</IsActive>
+      <IsExclusive>true</IsExclusive>
+      <AllowDrillDown>false</AllowDrillDown>
+      <Category>
+      </Category>
+      <Title>3 - OTHER: Refund target (Total)</Title>
+      <TotalsBy>1</TotalsBy>
+      <EntryCondition>
+        <Name>New condition</Name>
+        <RootPredicate>
+          <Type>0</Type>
+          <Name />
+          <ColumnName />
+          <Operator />
+          <Value />
+          <ValueType>0</ValueType>
+          <Comment />
+          <IsActive>true</IsActive>
+          <ChildPredicates />
+        </RootPredicate>
+      </EntryCondition>
+      <Result>
+        <IsActive>true</IsActive>
+        <IsExclusive>false</IsExclusive>
+        <AllowDrillDown>false</AllowDrillDown>
+        <Category>
+        </Category>
+        <Title>AR Received by MNA</Title>
+        <TotalsBy>1</TotalsBy>
+        <EntryCondition>
+          <Name>New condition</Name>
+          <RootPredicate>
+            <Type>0</Type>
+            <Name />
+            <ColumnName />
+            <Operator />
+            <Value />
+            <ValueType>0</ValueType>
+            <Comment />
+            <IsActive>true</IsActive>
+            <ChildPredicates>
+              <ChildPredicate>
+                <Type>2</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>AR in MNA</Name>
+                    <ColumnName>MNA_BundleContents</ColumnName>
+                    <Operator>CONTAINS</Operator>
+                    <Value>(9)</Value>
+                    <ValueType>202</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>AR in MNA</Name>
+                    <ColumnName>MNA_BundleContents</ColumnName>
+                    <Operator>CONTAINS</Operator>
+                    <Value>(5)</Value>
+                    <ValueType>202</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>eIRNC in MNA</Name>
+                    <ColumnName>MNA_BundleContents</ColumnName>
+                    <Operator>CONTAINS</Operator>
+                    <Value>(10)</Value>
+                    <ValueType>202</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                </ChildPredicates>
+              </ChildPredicate>
+            </ChildPredicates>
+          </RootPredicate>
+        </EntryCondition>
+        <TitleFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </TitleFormat>
+        <ResultFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormat>
+        <ResultFormatEmpty>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormatEmpty>
+      </Result>
+      <Result>
+        <IsActive>true</IsActive>
+        <IsExclusive>true</IsExclusive>
+        <AllowDrillDown>false</AllowDrillDown>
+        <Category>
+        </Category>
+        <Title>AR Not received by MNA</Title>
+        <TotalsBy>1</TotalsBy>
+        <EntryCondition>
+          <Name>New condition</Name>
+          <RootPredicate>
+            <Type>0</Type>
+            <Name />
+            <ColumnName />
+            <Operator />
+            <Value />
+            <ValueType>0</ValueType>
+            <Comment />
+            <IsActive>true</IsActive>
+            <ChildPredicates />
+          </RootPredicate>
+        </EntryCondition>
+        <Result>
+          <IsActive>true</IsActive>
+          <IsExclusive>true</IsExclusive>
+          <AllowDrillDown>false</AllowDrillDown>
+          <Category>
+          </Category>
+          <Title>Details: Txn in MNA</Title>
+          <TotalsBy>0</TotalsBy>
+          <EntryCondition>
+            <Name>New condition</Name>
+            <RootPredicate>
+              <Type>0</Type>
+              <Name />
+              <ColumnName />
+              <Operator />
+              <Value />
+              <ValueType>0</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates>
+                <ChildPredicate>
+                  <Type>4</Type>
+                  <Name>Recovered</Name>
+                  <ColumnName>MNA_BundleTypes</ColumnName>
+                  <Operator>&lt;&gt;</Operator>
+                  <Value>(S)</Value>
+                  <ValueType>202</ValueType>
+                  <Comment />
+                  <IsActive>true</IsActive>
+                  <ChildPredicates />
+                </ChildPredicate>
+              </ChildPredicates>
+            </RootPredicate>
+          </EntryCondition>
+          <Result>
+            <IsActive>true</IsActive>
+            <IsExclusive>false</IsExclusive>
+            <AllowDrillDown>false</AllowDrillDown>
+            <Category>
+            </Category>
+            <Title>Voided</Title>
+            <TotalsBy>1</TotalsBy>
+            <EntryCondition>
+              <Name>New condition</Name>
+              <RootPredicate>
+                <Type>0</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>Voided</Name>
+                    <ColumnName>TTS_IssuedStatus</ColumnName>
+                    <Operator>=</Operator>
+                    <Value>2</Value>
+                    <ValueType>20</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                </ChildPredicates>
+              </RootPredicate>
+            </EntryCondition>
+            <TitleFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </TitleFormat>
+            <ResultFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormat>
+            <ResultFormatEmpty>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormatEmpty>
+          </Result>
+          <Result>
+            <IsActive>true</IsActive>
+            <IsExclusive>false</IsExclusive>
+            <AllowDrillDown>false</AllowDrillDown>
+            <Category>
+            </Category>
+            <Title>Unconfirmed</Title>
+            <TotalsBy>1</TotalsBy>
+            <EntryCondition>
+              <Name>New condition</Name>
+              <RootPredicate>
+                <Type>0</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>Unconfirmed</Name>
+                    <ColumnName>TTS_IssuedStatus</ColumnName>
+                    <Operator>=</Operator>
+                    <Value>3</Value>
+                    <ValueType>20</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                </ChildPredicates>
+              </RootPredicate>
+            </EntryCondition>
+            <TitleFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </TitleFormat>
+            <ResultFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormat>
+            <ResultFormatEmpty>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormatEmpty>
+          </Result>
+          <Result>
+            <IsActive>true</IsActive>
+            <IsExclusive>false</IsExclusive>
+            <AllowDrillDown>true</AllowDrillDown>
+            <Category>
+            </Category>
+            <Title>In Processing progress</Title>
+            <TotalsBy>1</TotalsBy>
+            <EntryCondition>
+              <Name>New condition</Name>
+              <RootPredicate>
+                <Type>0</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates />
+              </RootPredicate>
+            </EntryCondition>
+            <TitleFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </TitleFormat>
+            <ResultFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormat>
+            <ResultFormatEmpty>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormatEmpty>
+          </Result>
+          <TitleFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </TitleFormat>
+          <ResultFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormat>
+          <ResultFormatEmpty>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormatEmpty>
+        </Result>
+        <Result>
+          <IsActive>true</IsActive>
+          <IsExclusive>true</IsExclusive>
+          <AllowDrillDown>false</AllowDrillDown>
+          <Category>
+          </Category>
+          <Title>Details: Txn Still missing in MNA</Title>
+          <TotalsBy>0</TotalsBy>
+          <EntryCondition>
+            <Name>New condition</Name>
+            <RootPredicate>
+              <Type>0</Type>
+              <Name />
+              <ColumnName />
+              <Operator />
+              <Value />
+              <ValueType>0</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates />
+            </RootPredicate>
+          </EntryCondition>
+          <Result>
+            <IsActive>true</IsActive>
+            <IsExclusive>false</IsExclusive>
+            <AllowDrillDown>false</AllowDrillDown>
+            <Category>
+            </Category>
+            <Title>Voided</Title>
+            <TotalsBy>1</TotalsBy>
+            <EntryCondition>
+              <Name>New condition</Name>
+              <RootPredicate>
+                <Type>0</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>Voided</Name>
+                    <ColumnName>TTS_IssuedStatus</ColumnName>
+                    <Operator>=</Operator>
+                    <Value>2</Value>
+                    <ValueType>20</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                </ChildPredicates>
+              </RootPredicate>
+            </EntryCondition>
+            <TitleFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </TitleFormat>
+            <ResultFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormat>
+            <ResultFormatEmpty>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormatEmpty>
+          </Result>
+          <Result>
+            <IsActive>true</IsActive>
+            <IsExclusive>false</IsExclusive>
+            <AllowDrillDown>false</AllowDrillDown>
+            <Category>
+            </Category>
+            <Title>Unconfirmed</Title>
+            <TotalsBy>1</TotalsBy>
+            <EntryCondition>
+              <Name>New condition</Name>
+              <RootPredicate>
+                <Type>0</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates>
+                  <ChildPredicate>
+                    <Type>4</Type>
+                    <Name>Unconfirmed</Name>
+                    <ColumnName>TTS_IssuedStatus</ColumnName>
+                    <Operator>=</Operator>
+                    <Value>3</Value>
+                    <ValueType>20</ValueType>
+                    <Comment />
+                    <IsActive>true</IsActive>
+                    <ChildPredicates />
+                  </ChildPredicate>
+                </ChildPredicates>
+              </RootPredicate>
+            </EntryCondition>
+            <TitleFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </TitleFormat>
+            <ResultFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormat>
+            <ResultFormatEmpty>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormatEmpty>
+          </Result>
+          <Result>
+            <IsActive>true</IsActive>
+            <IsExclusive>false</IsExclusive>
+            <AllowDrillDown>true</AllowDrillDown>
+            <Category>
+            </Category>
+            <Title>Issued</Title>
+            <TotalsBy>1</TotalsBy>
+            <EntryCondition>
+              <Name>New condition</Name>
+              <RootPredicate>
+                <Type>0</Type>
+                <Name />
+                <ColumnName />
+                <Operator />
+                <Value />
+                <ValueType>0</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates />
+              </RootPredicate>
+            </EntryCondition>
+            <TitleFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </TitleFormat>
+            <ResultFormat>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormat>
+            <ResultFormatEmpty>
+              <BorderTop>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderTop>
+              <BorderLeft>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderLeft>
+              <BorderBottom>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderBottom>
+              <BorderRight>
+                <Color>-16777216</Color>
+                <Width>1</Width>
+                <Style>Solid</Style>
+              </BorderRight>
+              <BackgroundColor>-1</BackgroundColor>
+              <TextColor>-16777216</TextColor>
+              <Alignment>4</Alignment>
+            </ResultFormatEmpty>
+          </Result>
+          <TitleFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </TitleFormat>
+          <ResultFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormat>
+          <ResultFormatEmpty>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormatEmpty>
+        </Result>
+        <TitleFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </TitleFormat>
+        <ResultFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormat>
+        <ResultFormatEmpty>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormatEmpty>
+      </Result>
+      <TitleFormat>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </TitleFormat>
+      <ResultFormat>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </ResultFormat>
+      <ResultFormatEmpty>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </ResultFormatEmpty>
+    </Result>
+    <Result>
+      <IsActive>true</IsActive>
+      <IsExclusive>true</IsExclusive>
+      <AllowDrillDown>true</AllowDrillDown>
+      <Category>
+      </Category>
+      <Title>A - Invoiced (Rejected eCS)</Title>
+      <TotalsBy>1</TotalsBy>
+      <EntryCondition>
+        <Name>New condition</Name>
+        <RootPredicate>
+          <Type>0</Type>
+          <Name />
+          <ColumnName />
+          <Operator />
+          <Value />
+          <ValueType>0</ValueType>
+          <Comment />
+          <IsActive>true</IsActive>
+          <ChildPredicates>
+            <ChildPredicate>
+              <Type>4</Type>
+              <Name>Invoiced txns</Name>
+              <ColumnName>MNA_Invoiced</ColumnName>
+              <Operator>&lt;&gt;</Operator>
+              <Value />
+              <ValueType>0</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates />
+            </ChildPredicate>
+          </ChildPredicates>
+        </RootPredicate>
+      </EntryCondition>
+      <Result>
+        <IsActive>true</IsActive>
+        <IsExclusive>true</IsExclusive>
+        <AllowDrillDown>true</AllowDrillDown>
+        <Category>
+        </Category>
+        <Title>Invoiced (NC refund orders created)</Title>
+        <TotalsBy>1</TotalsBy>
+        <EntryCondition>
+          <Name>New condition</Name>
+          <RootPredicate>
+            <Type>0</Type>
+            <Name />
+            <ColumnName />
+            <Operator />
+            <Value />
+            <ValueType>0</ValueType>
+            <Comment />
+            <IsActive>true</IsActive>
+            <ChildPredicates>
+              <ChildPredicate>
+                <Type>4</Type>
+                <Name>Non Cash refund orders created</Name>
+                <ColumnName>PDS_Counts_RecordCount</ColumnName>
+                <Operator>&gt;</Operator>
+                <Value>0</Value>
+                <ValueType>20</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates />
+              </ChildPredicate>
+            </ChildPredicates>
+          </RootPredicate>
+        </EntryCondition>
+        <Result>
+          <IsActive>false</IsActive>
+          <IsExclusive>false</IsExclusive>
+          <AllowDrillDown>false</AllowDrillDown>
+          <Category>
+          </Category>
+          <Title>ER (Non Cash)</Title>
+          <TotalsBy>0</TotalsBy>
+          <EntryCondition>
+            <Name>New condition</Name>
+            <RootPredicate>
+              <Type>0</Type>
+              <Name />
+              <ColumnName />
+              <Operator />
+              <Value />
+              <ValueType>0</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates>
+                <ChildPredicate>
+                  <Type>4</Type>
+                  <Name>ER (NCIA)</Name>
+                  <ColumnName>TTS_EarlyRefundType</ColumnName>
+                  <Operator>&gt;</Operator>
+                  <Value>10</Value>
+                  <ValueType>20</ValueType>
+                  <Comment />
+                  <IsActive>true</IsActive>
+                  <ChildPredicates />
+                </ChildPredicate>
+              </ChildPredicates>
+            </RootPredicate>
+          </EntryCondition>
+          <TitleFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </TitleFormat>
+          <ResultFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormat>
+          <ResultFormatEmpty>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormatEmpty>
+        </Result>
+        <Result>
+          <IsActive>false</IsActive>
+          <IsExclusive>false</IsExclusive>
+          <AllowDrillDown>false</AllowDrillDown>
+          <Category>
+          </Category>
+          <Title>Late Non Cash</Title>
+          <TotalsBy>0</TotalsBy>
+          <EntryCondition>
+            <Name>New condition</Name>
+            <RootPredicate>
+              <Type>0</Type>
+              <Name />
+              <ColumnName />
+              <Operator />
+              <Value />
+              <ValueType>0</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates />
+            </RootPredicate>
+          </EntryCondition>
+          <TitleFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </TitleFormat>
+          <ResultFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormat>
+          <ResultFormatEmpty>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormatEmpty>
+        </Result>
+        <TitleFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </TitleFormat>
+        <ResultFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormat>
+        <ResultFormatEmpty>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormatEmpty>
+      </Result>
+      <Result>
+        <IsActive>true</IsActive>
+        <IsExclusive>true</IsExclusive>
+        <AllowDrillDown>true</AllowDrillDown>
+        <Category>
+        </Category>
+        <Title>Invoiced (Cash Refunded)</Title>
+        <TotalsBy>1</TotalsBy>
+        <EntryCondition>
+          <Name>New condition</Name>
+          <RootPredicate>
+            <Type>0</Type>
+            <Name />
+            <ColumnName />
+            <Operator />
+            <Value />
+            <ValueType>0</ValueType>
+            <Comment />
+            <IsActive>true</IsActive>
+            <ChildPredicates>
+              <ChildPredicate>
+                <Type>4</Type>
+                <Name>Cash Refunded</Name>
+                <ColumnName>MNA_BundleTypes</ColumnName>
+                <Operator>CONTAINS</Operator>
+                <Value>(B)</Value>
+                <ValueType>202</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates />
+              </ChildPredicate>
+            </ChildPredicates>
+          </RootPredicate>
+        </EntryCondition>
+        <Result>
+          <IsActive>false</IsActive>
+          <IsExclusive>false</IsExclusive>
+          <AllowDrillDown>false</AllowDrillDown>
+          <Category>
+          </Category>
+          <Title>ER</Title>
+          <TotalsBy>0</TotalsBy>
+          <EntryCondition>
+            <Name>New condition</Name>
+            <RootPredicate>
+              <Type>0</Type>
+              <Name />
+              <ColumnName />
+              <Operator />
+              <Value />
+              <ValueType>0</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates>
+                <ChildPredicate>
+                  <Type>4</Type>
+                  <Name>ER</Name>
+                  <ColumnName>TTS_EarlyRefundType</ColumnName>
+                  <Operator>&gt;</Operator>
+                  <Value>10</Value>
+                  <ValueType>20</ValueType>
+                  <Comment />
+                  <IsActive>true</IsActive>
+                  <ChildPredicates />
+                </ChildPredicate>
+              </ChildPredicates>
+            </RootPredicate>
+          </EntryCondition>
+          <TitleFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </TitleFormat>
+          <ResultFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormat>
+          <ResultFormatEmpty>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormatEmpty>
+        </Result>
+        <Result>
+          <IsActive>false</IsActive>
+          <IsExclusive>false</IsExclusive>
+          <AllowDrillDown>false</AllowDrillDown>
+          <Category>
+          </Category>
+          <Title>Late Cash</Title>
+          <TotalsBy>0</TotalsBy>
+          <EntryCondition>
+            <Name>New condition</Name>
+            <RootPredicate>
+              <Type>0</Type>
+              <Name />
+              <ColumnName />
+              <Operator />
+              <Value />
+              <ValueType>0</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates />
+            </RootPredicate>
+          </EntryCondition>
+          <TitleFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </TitleFormat>
+          <ResultFormat>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormat>
+          <ResultFormatEmpty>
+            <BorderTop>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderTop>
+            <BorderLeft>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderLeft>
+            <BorderBottom>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderBottom>
+            <BorderRight>
+              <Color>-16777216</Color>
+              <Width>1</Width>
+              <Style>Solid</Style>
+            </BorderRight>
+            <BackgroundColor>-1</BackgroundColor>
+            <TextColor>-16777216</TextColor>
+            <Alignment>4</Alignment>
+          </ResultFormatEmpty>
+        </Result>
+        <TitleFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </TitleFormat>
+        <ResultFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormat>
+        <ResultFormatEmpty>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormatEmpty>
+      </Result>
+      <Result>
+        <IsActive>true</IsActive>
+        <IsExclusive>false</IsExclusive>
+        <AllowDrillDown>false</AllowDrillDown>
+        <Category>
+        </Category>
+        <Title>Invoiced (CIS / not imported in PDS)</Title>
+        <TotalsBy>1</TotalsBy>
+        <EntryCondition>
+          <Name>New condition</Name>
+          <RootPredicate>
+            <Type>0</Type>
+            <Name />
+            <ColumnName />
+            <Operator />
+            <Value />
+            <ValueType>0</ValueType>
+            <Comment />
+            <IsActive>true</IsActive>
+            <ChildPredicates />
+          </RootPredicate>
+        </EntryCondition>
+        <TitleFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </TitleFormat>
+        <ResultFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormat>
+        <ResultFormatEmpty>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormatEmpty>
+      </Result>
+      <TitleFormat>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </TitleFormat>
+      <ResultFormat>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </ResultFormat>
+      <ResultFormatEmpty>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </ResultFormatEmpty>
+    </Result>
+    <Result>
+      <IsActive>true</IsActive>
+      <IsExclusive>true</IsExclusive>
+      <AllowDrillDown>true</AllowDrillDown>
+      <Category>
+      </Category>
+      <Title>B - NC refund orders created (Rejected eCS)</Title>
+      <TotalsBy>1</TotalsBy>
+      <EntryCondition>
+        <Name>New condition</Name>
+        <RootPredicate>
+          <Type>0</Type>
+          <Name />
+          <ColumnName />
+          <Operator />
+          <Value />
+          <ValueType>0</ValueType>
+          <Comment />
+          <IsActive>true</IsActive>
+          <ChildPredicates>
+            <ChildPredicate>
+              <Type>4</Type>
+              <Name>Non Cash refund orders created</Name>
+              <ColumnName>PDS_Counts_RecordCount</ColumnName>
+              <Operator>&gt;</Operator>
+              <Value>0</Value>
+              <ValueType>20</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates />
+            </ChildPredicate>
+          </ChildPredicates>
+        </RootPredicate>
+      </EntryCondition>
+      <Result>
+        <IsActive>true</IsActive>
+        <IsExclusive>false</IsExclusive>
+        <AllowDrillDown>false</AllowDrillDown>
+        <Category>
+        </Category>
+        <Title>B1 - ER (Non Cash)</Title>
+        <TotalsBy>0</TotalsBy>
+        <EntryCondition>
+          <Name>New condition</Name>
+          <RootPredicate>
+            <Type>0</Type>
+            <Name />
+            <ColumnName />
+            <Operator />
+            <Value />
+            <ValueType>0</ValueType>
+            <Comment />
+            <IsActive>true</IsActive>
+            <ChildPredicates>
+              <ChildPredicate>
+                <Type>4</Type>
+                <Name>ER (NCIA)</Name>
+                <ColumnName>TTS_EarlyRefundType</ColumnName>
+                <Operator>&gt;</Operator>
+                <Value>10</Value>
+                <ValueType>20</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates />
+              </ChildPredicate>
+            </ChildPredicates>
+          </RootPredicate>
+        </EntryCondition>
+        <TitleFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </TitleFormat>
+        <ResultFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormat>
+        <ResultFormatEmpty>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormatEmpty>
+      </Result>
+      <Result>
+        <IsActive>true</IsActive>
+        <IsExclusive>false</IsExclusive>
+        <AllowDrillDown>false</AllowDrillDown>
+        <Category>
+        </Category>
+        <Title>B2 - Late Non Cash</Title>
+        <TotalsBy>0</TotalsBy>
+        <EntryCondition>
+          <Name>New condition</Name>
+          <RootPredicate>
+            <Type>0</Type>
+            <Name />
+            <ColumnName />
+            <Operator />
+            <Value />
+            <ValueType>0</ValueType>
+            <Comment />
+            <IsActive>true</IsActive>
+            <ChildPredicates />
+          </RootPredicate>
+        </EntryCondition>
+        <TitleFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </TitleFormat>
+        <ResultFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormat>
+        <ResultFormatEmpty>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormatEmpty>
+      </Result>
+      <TitleFormat>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </TitleFormat>
+      <ResultFormat>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </ResultFormat>
+      <ResultFormatEmpty>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </ResultFormatEmpty>
+    </Result>
+    <Result>
+      <IsActive>true</IsActive>
+      <IsExclusive>true</IsExclusive>
+      <AllowDrillDown>true</AllowDrillDown>
+      <Category>
+      </Category>
+      <Title>C - Cash Refunded (Rejected eCS)</Title>
+      <TotalsBy>1</TotalsBy>
+      <EntryCondition>
+        <Name>New condition</Name>
+        <RootPredicate>
+          <Type>0</Type>
+          <Name />
+          <ColumnName />
+          <Operator />
+          <Value />
+          <ValueType>0</ValueType>
+          <Comment />
+          <IsActive>true</IsActive>
+          <ChildPredicates>
+            <ChildPredicate>
+              <Type>4</Type>
+              <Name>Cash Refunded</Name>
+              <ColumnName>MNA_BundleTypes</ColumnName>
+              <Operator>CONTAINS</Operator>
+              <Value>(B)</Value>
+              <ValueType>202</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates />
+            </ChildPredicate>
+          </ChildPredicates>
+        </RootPredicate>
+      </EntryCondition>
+      <Result>
+        <IsActive>true</IsActive>
+        <IsExclusive>false</IsExclusive>
+        <AllowDrillDown>true</AllowDrillDown>
+        <Category>
+        </Category>
+        <Title>C1 - ER</Title>
+        <TotalsBy>1</TotalsBy>
+        <EntryCondition>
+          <Name>New condition</Name>
+          <RootPredicate>
+            <Type>0</Type>
+            <Name />
+            <ColumnName />
+            <Operator />
+            <Value />
+            <ValueType>0</ValueType>
+            <Comment />
+            <IsActive>true</IsActive>
+            <ChildPredicates>
+              <ChildPredicate>
+                <Type>4</Type>
+                <Name>ER</Name>
+                <ColumnName>TTS_EarlyRefundType</ColumnName>
+                <Operator>&gt;</Operator>
+                <Value>10</Value>
+                <ValueType>20</ValueType>
+                <Comment />
+                <IsActive>true</IsActive>
+                <ChildPredicates />
+              </ChildPredicate>
+            </ChildPredicates>
+          </RootPredicate>
+        </EntryCondition>
+        <TitleFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </TitleFormat>
+        <ResultFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormat>
+        <ResultFormatEmpty>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormatEmpty>
+      </Result>
+      <Result>
+        <IsActive>true</IsActive>
+        <IsExclusive>false</IsExclusive>
+        <AllowDrillDown>true</AllowDrillDown>
+        <Category>
+        </Category>
+        <Title>C2 - Late Cash</Title>
+        <TotalsBy>1</TotalsBy>
+        <EntryCondition>
+          <Name>New condition</Name>
+          <RootPredicate>
+            <Type>0</Type>
+            <Name />
+            <ColumnName />
+            <Operator />
+            <Value />
+            <ValueType>0</ValueType>
+            <Comment />
+            <IsActive>true</IsActive>
+            <ChildPredicates />
+          </RootPredicate>
+        </EntryCondition>
+        <TitleFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </TitleFormat>
+        <ResultFormat>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormat>
+        <ResultFormatEmpty>
+          <BorderTop>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderTop>
+          <BorderLeft>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderLeft>
+          <BorderBottom>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderBottom>
+          <BorderRight>
+            <Color>-16777216</Color>
+            <Width>1</Width>
+            <Style>Solid</Style>
+          </BorderRight>
+          <BackgroundColor>-1</BackgroundColor>
+          <TextColor>-16777216</TextColor>
+          <Alignment>4</Alignment>
+        </ResultFormatEmpty>
+      </Result>
+      <TitleFormat>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </TitleFormat>
+      <ResultFormat>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </ResultFormat>
+      <ResultFormatEmpty>
+        <BorderTop>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderTop>
+        <BorderLeft>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderLeft>
+        <BorderBottom>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderBottom>
+        <BorderRight>
+          <Color>-16777216</Color>
+          <Width>1</Width>
+          <Style>Solid</Style>
+        </BorderRight>
+        <BackgroundColor>-1</BackgroundColor>
+        <TextColor>-16777216</TextColor>
+        <Alignment>4</Alignment>
+      </ResultFormatEmpty>
+    </Result>
+    <TitleFormat>
+      <BorderTop>
+        <Color>-16777216</Color>
+        <Width>1</Width>
+        <Style>Solid</Style>
+      </BorderTop>
+      <BorderLeft>
+        <Color>-16777216</Color>
+        <Width>1</Width>
+        <Style>Solid</Style>
+      </BorderLeft>
+      <BorderBottom>
+        <Color>-16777216</Color>
+        <Width>1</Width>
+        <Style>Solid</Style>
+      </BorderBottom>
+      <BorderRight>
+        <Color>-16777216</Color>
+        <Width>1</Width>
+        <Style>Solid</Style>
+      </BorderRight>
+      <BackgroundColor>-1</BackgroundColor>
+      <TextColor>-16777216</TextColor>
+      <Alignment>4</Alignment>
+    </TitleFormat>
+    <ResultFormat>
+      <BorderTop>
+        <Color>-16777216</Color>
+        <Width>1</Width>
+        <Style>Solid</Style>
+      </BorderTop>
+      <BorderLeft>
+        <Color>-16777216</Color>
+        <Width>1</Width>
+        <Style>Solid</Style>
+      </BorderLeft>
+      <BorderBottom>
+        <Color>-16777216</Color>
+        <Width>1</Width>
+        <Style>Solid</Style>
+      </BorderBottom>
+      <BorderRight>
+        <Color>-16777216</Color>
+        <Width>1</Width>
+        <Style>Solid</Style>
+      </BorderRight>
+      <BackgroundColor>-1</BackgroundColor>
+      <TextColor>-16777216</TextColor>
+      <Alignment>4</Alignment>
+    </ResultFormat>
+    <ResultFormatEmpty>
+      <BorderTop>
+        <Color>-16777216</Color>
+        <Width>1</Width>
+        <Style>Solid</Style>
+      </BorderTop>
+      <BorderLeft>
+        <Color>-16777216</Color>
+        <Width>1</Width>
+        <Style>Solid</Style>
+      </BorderLeft>
+      <BorderBottom>
+        <Color>-16777216</Color>
+        <Width>1</Width>
+        <Style>Solid</Style>
+      </BorderBottom>
+      <BorderRight>
+        <Color>-16777216</Color>
+        <Width>1</Width>
+        <Style>Solid</Style>
+      </BorderRight>
+      <BackgroundColor>-1</BackgroundColor>
+      <TextColor>-16777216</TextColor>
+      <Alignment>4</Alignment>
+    </ResultFormatEmpty>
+  </Result>
+  <AnalysisTitle>Rejected eCS</AnalysisTitle>
+  <StartDateColumn>IssuingDate</StartDateColumn>
+  <StartDate>2017-09-01</StartDate>
+  <NumDaysPerPeriod>1</NumDaysPerPeriod>
+  <NumPeriods>2</NumPeriods>
+  <RecordFilter>
+    <Name>New condition</Name>
+    <RootPredicate>
+      <Type>0</Type>
+      <Name />
+      <ColumnName />
+      <Operator />
+      <Value />
+      <ValueType>0</ValueType>
+      <Comment />
+      <IsActive>true</IsActive>
+      <ChildPredicates>
+        <ChildPredicate>
+          <Type>4</Type>
+          <Name>Rejected e-stamped</Name>
+          <ColumnName>TTS_CustomsStatus</ColumnName>
+          <Operator>=</Operator>
+          <Value>21</Value>
+          <ValueType>20</ValueType>
+          <Comment />
+          <IsActive>true</IsActive>
+          <ChildPredicates />
+        </ChildPredicate>
+        <ChildPredicate>
+          <Type>3</Type>
+          <Name />
+          <ColumnName />
+          <Operator />
+          <Value />
+          <ValueType>0</ValueType>
+          <Comment />
+          <IsActive>false</IsActive>
+          <ChildPredicates>
+            <ChildPredicate>
+              <Type>2</Type>
+              <Name />
+              <ColumnName />
+              <Operator />
+              <Value />
+              <ValueType>0</ValueType>
+              <Comment />
+              <IsActive>false</IsActive>
+              <ChildPredicates>
+                <ChildPredicate>
+                  <Type>4</Type>
+                  <Name>e-stamped intermediate</Name>
+                  <ColumnName>TTS_CustomsStatus</ColumnName>
+                  <Operator>=</Operator>
+                  <Value>22</Value>
+                  <ValueType>20</ValueType>
+                  <Comment />
+                  <IsActive>false</IsActive>
+                  <ChildPredicates />
+                </ChildPredicate>
+                <ChildPredicate>
+                  <Type>4</Type>
+                  <Name>e-stamped approved</Name>
+                  <ColumnName>TTS_CustomsStatus</ColumnName>
+                  <Operator>=</Operator>
+                  <Value>20</Value>
+                  <ValueType>20</ValueType>
+                  <Comment />
+                  <IsActive>false</IsActive>
+                  <ChildPredicates />
+                </ChildPredicate>
+              </ChildPredicates>
+            </ChildPredicate>
+          </ChildPredicates>
+        </ChildPredicate>
+        <ChildPredicate>
+          <Type>4</Type>
+          <Name>Not Processed by REX</Name>
+          <ColumnName>TTS_TFSRefundTransactionID</ColumnName>
+          <Operator>=</Operator>
+          <Value />
+          <ValueType>0</ValueType>
+          <Comment />
+          <IsActive>false</IsActive>
+          <ChildPredicates />
+        </ChildPredicate>
+        <ChildPredicate>
+          <Type>2</Type>
+          <Name />
+          <ColumnName />
+          <Operator />
+          <Value />
+          <ValueType>0</ValueType>
+          <Comment />
+          <IsActive>true</IsActive>
+          <ChildPredicates>
+            <ChildPredicate>
+              <Type>4</Type>
+              <Name>Denmark</Name>
+              <ColumnName>TTS_ShopCountryName</ColumnName>
+              <Operator>=</Operator>
+              <Value>DENMARK</Value>
+              <ValueType>202</ValueType>
+              <Comment />
+              <IsActive>false</IsActive>
+              <ChildPredicates />
+            </ChildPredicate>
+            <ChildPredicate>
+              <Type>4</Type>
+              <Name>France</Name>
+              <ColumnName>TTS_ShopCountryName</ColumnName>
+              <Operator>=</Operator>
+              <Value>FRANCE</Value>
+              <ValueType>202</ValueType>
+              <Comment />
+              <IsActive>true</IsActive>
+              <ChildPredicates />
+            </ChildPredicate>
+            <ChildPredicate>
+              <Type>4</Type>
+              <Name>Argentina</Name>
+              <ColumnName>TTS_ShopCountryName</ColumnName>
+              <Operator>=</Operator>
+              <Value>ARGENTINA</Value>
+              <ValueType>202</ValueType>
+              <Comment />
+              <IsActive>false</IsActive>
+              <ChildPredicates />
+            </ChildPredicate>
+            <ChildPredicate>
+              <Type>4</Type>
+              <Name>Cyprus</Name>
+              <ColumnName>TTS_ShopCountryName</ColumnName>
+              <Operator>=</Operator>
+              <Value>CYPRUS</Value>
+              <ValueType>202</ValueType>
+              <Comment />
+              <IsActive>false</IsActive>
+              <ChildPredicates />
+            </ChildPredicate>
+            <ChildPredicate>
+              <Type>4</Type>
+              <Name>Spain</Name>
+              <ColumnName>TTS_ShopCountryName</ColumnName>
+              <Operator>=</Operator>
+              <Value>SPAIN</Value>
+              <ValueType>202</ValueType>
+              <Comment />
+              <IsActive>false</IsActive>
+              <ChildPredicates />
+            </ChildPredicate>
+            <ChildPredicate>
+              <Type>4</Type>
+              <Name>Estonia</Name>
+              <ColumnName>TTS_ShopCountryName</ColumnName>
+              <Operator>=</Operator>
+              <Value>ESTONIA</Value>
+              <ValueType>202</ValueType>
+              <Comment />
+              <IsActive>false</IsActive>
+              <ChildPredicates />
+            </ChildPredicate>
+            <ChildPredicate>
+              <Type>4</Type>
+              <Name>Finland</Name>
+              <ColumnName>TTS_ShopCountryName</ColumnName>
+              <Operator>=</Operator>
+              <Value>FINLAND</Value>
+              <ValueType>202</ValueType>
+              <Comment />
+              <IsActive>false</IsActive>
+              <ChildPredicates />
+            </ChildPredicate>
+          </ChildPredicates>
+        </ChildPredicate>
+        <ChildPredicate>
+          <Type>3</Type>
+          <Name />
+          <ColumnName />
+          <Operator />
+          <Value />
+          <ValueType>0</ValueType>
+          <Comment />
+          <IsActive>false</IsActive>
+          <ChildPredicates>
+            <ChildPredicate>
+              <Type>2</Type>
+              <Name>Scanned positive</Name>
+              <ColumnName />
+              <Operator />
+              <Value />
+              <ValueType>0</ValueType>
+              <Comment />
+              <IsActive>false</IsActive>
+              <ChildPredicates>
+                <ChildPredicate>
+                  <Type>4</Type>
+                  <Name>Scanned post invoice (Early Invoicing)</Name>
+                  <ColumnName>MNA_FormScanStatuses</ColumnName>
+                  <Operator>CONTAINS</Operator>
+                  <Value>(3)</Value>
+                  <ValueType>202</ValueType>
+                  <Comment />
+                  <IsActive>true</IsActive>
+                  <ChildPredicates />
+                </ChildPredicate>
+                <ChildPredicate>
+                  <Type>4</Type>
+                  <Name>Scanned pre invoice</Name>
+                  <ColumnName>MNA_FormScanStatuses</ColumnName>
+                  <Operator>CONTAINS</Operator>
+                  <Value>(2)</Value>
+                  <ValueType>202</ValueType>
+                  <Comment />
+                  <IsActive>true</IsActive>
+                  <ChildPredicates />
+                </ChildPredicate>
+              </ChildPredicates>
+            </ChildPredicate>
+          </ChildPredicates>
+        </ChildPredicate>
+      </ChildPredicates>
+    </RootPredicate>
+  </RecordFilter>
+  <IsMonthly>true</IsMonthly>
+  <IsPeriodic>true</IsPeriodic>
+  <TotalsTitle>
+  </TotalsTitle>
+  <AllowDrillDownTotals>false</AllowDrillDownTotals>
+</AnalysisConfiguration>
